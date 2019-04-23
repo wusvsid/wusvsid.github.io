@@ -1,0 +1,31 @@
+.grid-element {
+    background: black;
+    height: 275px;
+    width: 100%;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 20px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  header h1 {
+  text-align: center;
+  }
+  .grid-1 {
+    background:url('https://pp.userapi.com/c852236/v852236043/b5514/2eCgoLzayIA.jpg');
+    background-size: cover;
+  }
+  .grid-2{
+    background: #DDA0DD;
+  }
+  .grid-3{
+    background: #FFE4B5;
+  }
+  .grid-4{
+    background: #6495ED; 
+  }
+  header h1 {
+    font-family: Arrial Narrow;
+  }
